@@ -1,0 +1,26 @@
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.m-2{
+    margin: 2rem !important;
+}
+.px-4{
+    padding-left:12rem !important
+    
+}
+.container-sm {
+    margin-top: 3rem;
+    
+    
+}
+#section1{
+    background:rgb(240, 239, 239);
+    border-radius:2%
+}
+#ataxt{
+    margin-top: 2px;
+}

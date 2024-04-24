@@ -1,0 +1,22 @@
+ul li{
+    text-align: center ;
+}
+.border-start {
+    border-left: var(--bs-border-width) var(--bs-border-style) #000000 !important;
+    
+}
+a {
+    border: none; /* ลบเส้นขอบออก */
+    color: #000000; /* เปลี่ยนสีของลิงก์เป็นสีดำ */
+    text-decoration: none; /* ลบเส้นใต้ลิงก์ */
+}
+
+@media (max-width: 575.98px) {
+    li a{
+        font-size: 10px;
+    }
+    h3{
+        font-size: 15px;
+    }
+
+}

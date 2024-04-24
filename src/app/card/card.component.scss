@@ -1,0 +1,45 @@
+.card{
+    img{
+        height: 200px;
+        
+        
+    }
+}
+@media (max-width: 575.98px) {
+    .card{
+        img{
+            height: 150px;
+        }
+    }
+    
+
+    .card-body  {
+        margin-top: 0;
+        font-size: 10px; /* แก้ไขตรงนี้เป็น 20px */
+    }
+    .card-body  h5{
+        font-size: 20px; /* แก้ไขตรงนี้เป็น 20px */
+    }
+    #carouselExampleIndicators{
+        height: 200px;
+        #imgherder{
+            height: 200px;
+        }        
+    }
+    #button a{
+        flex: 0 0 65%;
+        max-width: 85%;
+        margin-right: 2rem;
+        font-size: 15px;
+    
+    }
+    button{
+        font-size: 10px !important; 
+       
+    }
+
+}
+button{
+    margin-right: 1rem
+    
+}
